@@ -1,0 +1,97 @@
+body {
+    font-family: "Oswald";
+    font-size: 24px;
+    line-height: 1.5;
+    background: #000000;
+    color: #ffffff;
+  }
+  
+  .slideshow {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .holder {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 10000vw;
+    height: 100vh;
+    transition: left 1s;
+  }
+  
+  .holder div {
+    float: left;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px 30px;
+  }
+  .steps {
+    font-family: "Source Sans Pro";
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  div div div{
+      position: relative;
+  }
+  div div div a{
+    font-family: "Oswald";
+    text-transform: uppercase;
+    font-size: 48px;
+    color: white;
+    text-decoration: none;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .prev, .next {
+    font-family: "Source Sans Pro";
+    color: white;
+    padding: 20px 30px;
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    z-index: 1;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
+  .donate{
+    margin: 20px 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid white;
+    border-radius:4px;
+    transition: all .5s;
+    z-index: 2;
+    padding: 8px 16px;
+    background-color:white;
+
+  }
+  .donate a{
+    font-family: "Source Sans Pro";
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+  }
+  .donate:hover {
+    background-color: #D8D8D8;
+    border-color:#D8D8D8;
+  }
+
+  
+  

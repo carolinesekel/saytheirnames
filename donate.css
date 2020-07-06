@@ -1,0 +1,52 @@
+i{
+    width: 100px;
+    color: white;
+    position:fixed;
+    top: 20px;
+    left: 30px;
+    z-index:2;
+  }
+  i:hover{
+    color:#D8D8D8;
+  }
+  header {
+    height:80px;
+    width: 100%;
+    font-size:32px;
+  }
+  .site a{
+    border-radius:4px;
+    font-family: "Source Sans Pro";
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border: 1px solid white;
+  }
+  .site a:hover{
+    border-color:#D8D8D8;
+    color: #D8D8D8;
+  }
+  .site .main{
+    background-color: white;
+    color: black;
+  }
+  .site .main:hover{
+    background-color: #D8D8D8;
+    border-color:#D8D8D8;
+    color:black;
+  }
+  .site{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .site h3{
+    font-family: "Oswald";
+    font-size: 32px;
+    padding-top:50px;
+    padding-bottom:25px;
+  }
+
+nav{
+    padding:20px;
+}
