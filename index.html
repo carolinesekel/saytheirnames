@@ -1,6 +1,10 @@
 <!DOCTYPE HTML>
 
 <head>
+    <!--flickity-->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="base.css">
@@ -10,44 +14,43 @@
     <div class="donate">
         <a href="donate.html">Donate</a>
       </div>
-      <div class="slideshow">
-        <div class="holder">
-          <div class="slide-1">
+    
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": true, "wrapAround": true, "draggable":true }'>
+          <div class="carousel-cell">
             <a target="_blank" href="https://www.hrc.org/blog/hrc-mourns-monika-diamond-black-trans-woman-killed-in-north-carolina">
               Monika Diamond
             </a>
           </div>
-          <div class="slide-2">
+          <div class="carousel-cell">
             <a target="_blank" href="https://www.hrc.org/blog/hrc-mourns-nina-pop-black-transgender-woman-killed-in-missouri">
               Nina Pop
             </a>
           </div>
-          <div class="slide-3">
+          <div class="carousel-cell">
             <a target="_blank" href="https://www.hrc.org/blog/hrc-mourns-tony-mcdade-black-transgender-man-killed-in-florida">
               Tony McDade
             </a>
           </div>
-          <div class="slide-4">
+          <div class="carousel-cell">
             <a target="_blank" href="https://www.hrc.org/blog/hrc-mourns-dominique-remmie-fells-black-trans-woman-killed-in-philadelphia">
               Dominique "Rem'mie" Fells
             </a>
           </div>
-          <div class="slide-5">
+          <div class="carousel-cell">
             <a target="_blank" href="https://www.hrc.org/blog/hrc-mourns-riah-milton-black-trans-woman-killed-in-ohio">
                Riah Milton
             </a>
           </div>
-          <div class="slide-6">
+          <div class="carousel-cell">
             <a target="_blank" href="https://www.hrc.org/blog/hrc-mourns-brayla-stone-black-transgender-girl-killed-in-arkansas">
               Brayla Stone
             </a>
           </div>
-          <div class="slide-7">
+          <div class="carousel-cell">
                 <a target="_blank" href="https://www.hrc.org/blog/hrc-mourns-merci-mack-black-transgender-woman-killed-in-dallas">
                   Merci Mack
                 </a>
-              </div>
-        </div>
+            </div>
       </div>
       
       <div class="steps">
@@ -58,6 +61,6 @@
       <a href="#" class="next">Next</a>
       
       <script src="jquery.js"></script>
-      <script src="main.js"></script>
+      <!--<script src="main.js"></script>-->
 </body>
 </HTML>
