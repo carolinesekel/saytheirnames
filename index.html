@@ -2,9 +2,7 @@
 
 <head>
     <!--flickity-->
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen">
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
+    <link rel="stylesheet" href="flickity.css" media="screen">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="base.css">
@@ -15,7 +13,7 @@
         <a href="donate.html">Donate</a>
       </div>
     
-    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": true, "wrapAround": true, "draggable":true }'>
+    <div class="main-carousel">
           <div class="carousel-cell">
             <a target="_blank" href="https://www.hrc.org/blog/hrc-mourns-monika-diamond-black-trans-woman-killed-in-north-carolina">
               Monika Diamond
@@ -62,15 +60,15 @@
             </a>
           </div>
       </div>
+      <footer>            
+          <a href="#" class="prev">Prev</a>
+          <div class="steps"></div>
+          <a href="#" class="next">Next</a>
+      </footer>
       
-      <div class="steps">
-      
-      </div>
-      
-      <a href="#" class="prev">Prev</a>
-      <a href="#" class="next">Next</a>
       
       <script src="jquery.js"></script>
-      <!--<script src="main.js"></script>-->
+      <script src="flickity.pkgd.min.js"></script>
+      <script src="main.js"></script>
 </body>
 </HTML>
