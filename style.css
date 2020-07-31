@@ -5,7 +5,7 @@ body {
     background: #000000;
     color: #ffffff;
   }
-  footer{
+  /*footer{
     justify-content: space-between;
     align-content: center;
     padding: 20px 30px;
@@ -15,7 +15,7 @@ body {
   footer a, footer .steps{
     font-family: "Source Sans Pro";
     color:white;
-  }
+  }*/
   a{
     text-decoration: none;
   }
