@@ -1,7 +1,13 @@
 # saytheirnames
+Website honoring Black trans individuals killed in 2020, and listing organizations taking donations to provide assistance to Black trans people. Names will be updated if needed. Reach out with additional suggestions for resources, organizations, etc. 
+View live site [here](https://carolinesekel.github.io/saytheirnames/)
 
-Live site at https://carolinesekel.github.io/saytheirnames/ --> new domain coming soon. 
+## Built With
 
-Slideshow using [Flickity](https://flickity.metafizzy.co/) of the names of Black transgender individuals that have been killed in 2020. Inspired by the last project in my web development course through [SuperHi](https://www.superhi.com/student), I wanted to use the slideshow format to honor those whose lives were taken and bring attention to some organizations offering assistance to Black trans people. 
+* HTML
+* CSS
+* JQuery 
+* [Flickity](https://flickity.metafizzy.co/) - Used to generate slideshow
 
-Names to be updated if needed. Create an issue or pull request to contribute additional resources, organizations etc!
+## Acknowledgments
+Inspired by Week 8 of Foundational HTML, CSS + JavaScript from [SuperHi](https://www.superhi.com/).
